@@ -1,0 +1,113 @@
+/* FONT FAMILY */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+/* GENERAL SETTINGS */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #E8EBF1;
+}
+
+/* TYPOGRAPHY */
+
+.u-upperCase {
+  text-transform: uppercase;
+}
+
+.u-borderRadius {
+  border-radius: 8px;
+}
+
+.u-maxWidth {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.u-middle-title {
+  font-size: 20px;
+}
+
+/* COLOR */
+
+.u-white-color {
+  color: #fff;
+}
+.u-grey-color {
+  color: #54575D;
+}
+.u-light-grey-color {
+  color: #EAEAEA;
+}
+
+/* UTILITIES */
+
+.u-list-inline {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.u-text-center {
+  text-align: center;
+}
+.u-margin-top {
+  margin-top: 120px;
+}
+.u-margin-top-middle {
+  margin-top: 70px;
+}
+.u-room-bottom {
+  padding-bottom: 30px;
+}
+.u-room-bottom-small {
+  padding-bottom: 15px;
+}
+.u-room-top {
+  padding-top: 20px;
+}
+.u-room-top-large {
+  padding-top: 30px;
+}
+.u-vertical-align {
+  vertical-align: middle;
+}
+.u-padding {
+  padding: 5px 20px;
+}
+.u-padding-left {
+  padding-left: 10px;
+}
+
+/* UTILITIES FOR IMG */
+
+.u-img-block {
+  display: block;
+}
+
+.img-small {
+  width: 25px;
+  max-width: 100%;
+}
+.img-mini {
+  width: 45px;
+  max-width: 100%;
+}
+
+/* UTILITIES FOR MEDIA QUERY */
+ 
+.u-small-device {
+  display: inline-block;
+}
+.u-small-device-inline {
+  display: inline;
+}
+.u-large-device {
+  display: none;
+}

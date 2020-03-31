@@ -28,7 +28,8 @@ btnSubscribe.addEventListener('click',
         // build the elements in the list
         for(var i = 0; i < registered.length; i++) {
             items = registered[i];
-            newItems += '<li>' + items + '</li>';        
+            newItems += '<li>' + '<i class="fas fa-circle-notch"></i>' 
+            + ' ' + items + '</li>';        
         }
         userList.innerHTML = newItems; 
         userPosition = registered.indexOf(user);

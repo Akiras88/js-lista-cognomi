@@ -1,0 +1,104 @@
+/* MEDIA QUERY */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 400px) {
+    .list-dx {
+        padding-top: 20px;
+    }
+    .story {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu  {
+        display: none;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+}
+
+/* Medium devices (tablets, 768px and up, e.g. iPad Portrait) */
+@media (min-width: 768px) {
+    .wrapper {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .km {
+        position: relative;
+        left: 290px;
+        max-height: 30px;
+    }
+    .line::before {
+        width: 170px;
+    }
+    .route {
+        flex-direction: row;
+        align-items: flex-start;                                
+        justify-content: space-around;
+    }
+    .list-dx {
+        padding-top: 0;
+    }
+    .story {
+        display: flex;
+        flex-direction: row;
+    }
+    .story-p {
+        flex-basis: 50%;
+        margin: 0 10px;
+    }
+    .container {
+        left: 220px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+}
+
+/* Large devices (desktops, 992px and up, e.g. iPad Landscape) */
+@media (min-width: 992px) {
+    .wrapper {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .wrapper h1 {
+        font-size: 40px;
+    }
+    .hamburger {
+        display: none;
+    }
+    .km {
+        left: 350px;
+    }
+    .menu  {
+        display: block;
+    }
+    .container {
+        left: 350px;
+    }
+    label,
+    input,
+    select {
+        width: 500px;
+        padding: 10px 0 20px 0;
+    }
+    .row button {
+        padding: 20px 0 25px 0;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up, PC/MacBook) */
+@media (min-width: 1200px) {
+    .hamburger {
+        display: none;
+    }
+    .menu  {
+        display: block;
+    }
+    .km {
+        left: 425px;
+    }
+    .container {
+        left: 580px;
+    }
+}

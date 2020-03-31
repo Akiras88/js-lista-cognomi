@@ -4,15 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista cognomi</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="shared/css/style.css">
+    <!-- icons set -->
+    <link rel="stylesheet" href="style/all.min.css">
 </head>
 <body>
-    <h1>Iscritti Boolean classe 20</h1>
-    <h3>Iscriviti anche tu, lascia qui il tuo cognome</h3>
-    <input type="text" id="new-user" placeholder="Cognome">
-    <button id="subscribe">Subscribe</button>
-    <h3>Iscritti</h3>
-    <ul id="user-list"></ul>
-    <h4 id="position"></h4>
+    <header class="Header">
+        <img src="https://www.boolean.careers/images/common/logo.png" alt="">
+        <ul class="u-list-inline top-nav">
+            <li>Home</li>
+            <li>Corso</li>
+            <li>Dopo il corso</li>
+            <li>Lezione Gratuita</li>
+        </ul>
+    </header>
+    <main class="Main">
+        <h1 class="u-upperCase">Iscritti Boolean classe 20</h1>
+        <h3>Iscriviti anche tu, lascia qui il tuo cognome</h3>
+        <input type="text" id="new-user" placeholder="Cognome">
+        <button id="subscribe" class="btn">Subscribe</button>
+        <h3>Iscritti</h3>
+        <ul id="user-list" class="bottom-list"></ul>
+        <h4 id="position"></h4>
+    </main>
+    
+    
+    
+    
+    
+    
     <!-- js -->
     <script src="js/main.js"></script>
 </body>
