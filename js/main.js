@@ -31,7 +31,7 @@ btnSubscribe.addEventListener('click',
             newItems += '<li>' + items + '</li>';        
         }
         userList.innerHTML = newItems; 
-        userPosition = registered.indexOf(newUser);
+        userPosition = registered.indexOf(user);
         document.getElementById('position').innerHTML = 'Il tuo cognome è alla posizione: ' + (userPosition + 1);  
         newUser.value = '';
         newUser.focus();
